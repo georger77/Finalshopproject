@@ -44,20 +44,20 @@
 
 
 <body>
-    <header>
-        <div class="header-container">
-            <div class="header-block-logo">
-                <p class="logo">
-                    <img id="logo" src="img/logo.png" alt="Логотип">
-                </p>
-            </div>
-            <div class="header-block-title-information"><span id="head">Магазин-салон техніки</span><br>
-                <span id="contacts">Контактна інформація: м.Львів ТВК "Південний"
-                    Київстар 0676752713 МТС 0509616934</span><br><br>
-                <p><a href="#search">Пошук</a></p>
-            </div>
-        </div>
-    </header>
+    <!--<header>-->
+    <!--    <div class="header-container">-->
+    <!--        <div class="header-block-logo">-->
+    <!--            <p class="logo">-->
+    <!--                <img id="logo" src="img/logo.png" alt="Логотип">-->
+    <!--            </p>-->
+    <!--        </div>-->
+    <!--        <div class="header-block-title-information"><span id="head">Магазин-салон техніки</span><br>-->
+    <!--            <span id="contacts">Контактна інформація: м.Львів ТВК "Південний"-->
+    <!--                Київстар 0676752713 МТС 0509616934</span><br><br>-->
+    <!--            <p><a href="#search">Пошук</a></p>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</header>-->
 
 
    
@@ -68,7 +68,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#"><h2>Bosch</h2></a>
+  <a id="home" class="navbar-brand" href="#home"><h2>Bosch</h2></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -76,25 +76,25 @@
     <ul class="navbar-nav">
      
       <li class="nav-item">
-        <a class="nav-link" href="#gallery">Галерея</a>
+        <a class="nav-link smooth" href="#gallery">Галерея</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#warranty">Гарантія</a>
+        <a class="nav-link  smooth" href="#warranty">Гарантія</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#payment">Оплата</a>
-      </li>
+        <a class="nav-link  smooth" href="#payment">Оплата</a>
+      </li>   
       <li class="nav-item">
-        <a class="nav-link " href="#delivery">Доставка</a>
-      </li>
+        <a class="nav-link  smooth "  href="#delivery">Доставка</a>
+      </li> 
       <li class="nav-item">
-        <a class="nav-link " href="#contact">Контакти</a>
+        <a class="nav-link  smooth"  href="#contact">Контакти</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link " href="#catalog">Каталог</a>
+        <a class="nav-link  smooth"  href="#catalog">Каталог</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link " href="#order">Замовлення товару</a>
+        <a class="nav-link  smooth " data-toggle="collapse" href="#order">Замовлення товару</a>
       </li>
     </ul>
   </div>
@@ -104,7 +104,7 @@
 
 
 
-<div class="jumbotron">
+<div class="jumbotron text-center">
   <h1 class="display-3">Ми працюємо- ВИ відпочиваєте</h1>
   <p class="lead">Шукаєте якісну техніка, яка буде вам служити довго та надійно?</p>
   <hr class="my-4">
@@ -186,7 +186,7 @@
     <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="card-body">
         <section id="refrigerators">
-    <h3>Холодильники</h3>
+    <h3>Морозильні камери</h3>
     <div class="row">
         <article class=" col-12 col-sm-6 col-md-3 text-center">
             <img src="img/refr39vi31.jpg">
@@ -236,7 +236,7 @@
     <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
       <div class="card-body">
          <section id="refrigerators">
-    <h3>Холодильники</h3>
+    <h3>Кухонні плити</h3>
     <div class="row">
         <article class=" col-12 col-sm-6 col-md-3 text-center">
             <img src="img/refr39vi31.jpg">
@@ -519,6 +519,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
      <script src="js/form.js"></script>
+      <script src="js/smooth-scroll.js"></script>
+       <script src="js/bootstrap-colapse-navbar.js"></script>
   </body>
 
 
