@@ -19,9 +19,9 @@ $(function() {
             dataType: "json" 
         }).done(function() {
             form.reset();
-            $('#message-box').html('<h2>ok</h2>');
+            $('#message-box').html('<h2>Ваша інформація відправлена, чекайте на відповідь!</h2>');
         }).fail(function(){
-            $('#message-box').html('error');
+            $('#message-box').html('Помилка при відправленні, спробуйте ще раз');
         });
     });
 });
